@@ -18,7 +18,7 @@ function Pomodoro() {
     } else if (timerRunning && totalSeconds === 0) {
       setBreakRunning(true);
       setTimerRunning(false);
-      setTotalSeconds(5 * 60);
+      setTotalSeconds(15 * 60);
     } else if (breakRunning && totalSeconds > 0) {
       interval = setInterval(() => {
         setTotalSeconds((totalSeconds) => totalSeconds - 1);
