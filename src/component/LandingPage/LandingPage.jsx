@@ -1,13 +1,13 @@
 import React from "react";
 import "./LandingPage.css";
 import { Link } from "react-router-dom";
-import puclogo from "./../../assets/puchamburg.png";
+import schabelprojectslogo from "../../assets/schabelprojects-logos_transparent.png";
 
 function LandingPage() {
   return (
     <>
       <div className="pucLogo">
-        <img src={puclogo} alt="default" />
+        <img src={schabelprojectslogo} alt="default" />
       </div>
 
       <div className="title">
